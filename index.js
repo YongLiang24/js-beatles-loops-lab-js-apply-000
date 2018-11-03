@@ -1,16 +1,16 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments)
 {
-  var newArray = [];
+  var string = [];
   //create an array size of musician's length
   for(i=0; i<musicians.length; i++)
   {
-    newArray[i]= "";
+    string[i]= "";
   }
   //
   for(j=0; j<musicians.length; j++)
   {
-    newArray[j]="${musicians[j]} plays ${instruments[i]}";
+    string[j]+="${musicians[j]} plays ${instruments[i]}";
   }
-  return newArray;
+  return string;
 }

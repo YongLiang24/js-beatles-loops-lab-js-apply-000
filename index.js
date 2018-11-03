@@ -9,3 +9,4 @@ function theBeatlesPlay(arrayMusician, arrayInstrument)
   }
   return empArray;
 }
+theBeatlesPlay(["Why", "No"] , ["Guitar", "Hello"]);

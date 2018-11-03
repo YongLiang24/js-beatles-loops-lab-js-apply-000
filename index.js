@@ -10,8 +10,8 @@ function theBeatlesPlay(musicians, instruments)
   //
   for(j=0; j<musicians.length; j++)
   {
-    newArray[j]=musicians[j] + " plays " + instruments[i];
+    newArray[j]="${musicians[j]} plays ${instruments[i]}";
   }
   return newArray;
 }
-theBeatlesPlay(["Why", "No"] , ["Guitar", "Hello"]);
+

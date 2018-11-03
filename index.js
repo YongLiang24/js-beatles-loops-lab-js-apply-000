@@ -1,12 +1,16 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments)
 {
-  var empArray = [];
+  var newArray = [];
+  //create an array size of musician's length
   for(i=0; i<musicians.length; i++)
   {
-
-    empArray[i] = musicians[i] + "plays" + instruments[i];
+    newArray[i]= "";
   }
-  return empArray;
+  //
+  for(j=0; j<instruments.length; j++)
+  {
+    newArray[j]=musicians[j] +" plays "+ instruments[i];
+  }
+  return newArray;
 }
-theBeatlesPlay(["Why", "No"] , ["Guitar", "Hello"]);

@@ -23,3 +23,16 @@ function johnLennonFacts(facts){
   }
  return arr;
 }
+
+//case 3
+function iLoveTheBeatles(n)
+{
+  var arr=[];//empty array
+  //a do-while loop adds "I love the Beatles!" to the empty array.
+  do{
+    arr.push("I love the Beatles!");//push this once whether condition met or not
+    n++; //increment the number passed to the parameter
+  } while(n<15);//check the parameter number is less than 15
+
+  return arr;
+}

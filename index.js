@@ -8,9 +8,10 @@ function theBeatlesPlay(musicians, instruments)
     newArray[i]= "";
   }
   //
-  for(j=0; j<instruments.length; j++)
+  for(j=0; j<musicians.length; j++)
   {
-    newArray[j]=musicians[j] +" plays "+ instruments[i];
+    newArray[j]=musicians[j] + " plays " + instruments[i];
   }
   return newArray;
 }
+theBeatlesPlay(["Why", "No"] , ["Guitar", "Hello"]);

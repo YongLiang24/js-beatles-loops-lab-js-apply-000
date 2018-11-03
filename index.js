@@ -1,11 +1,11 @@
 // add solution here
-function theBeatlesPlay(arrayMusician, arrayInstrument)
+function theBeatlesPlay(musicians, instruments)
 {
   var empArray = [];
-  for(i=0; i<arrayMusician.length; i++)
+  for(i=0; i<musicians.length; i++)
   {
-    empArray[i]= "";
-    empArray[i] += arrayMusician[i] + "plays" + arrayInstrument[i];
+
+    empArray[i] = musicians[i] + "plays" + instruments[i];
   }
   return empArray;
 }

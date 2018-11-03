@@ -14,12 +14,12 @@ function theBeatlesPlay(musician, instrument)
 }
 //case 2
 function johnLennonFacts(facts){
-  var arr =[];
-  var c=0;
+  var arr =[];//empty array
+  var c=0; //a counter variable
+  //while loop to push '!!!' to the end of each index of facts array
   while(c <facts.length){
-    arr.push(facts[c] + '!!!');
+    arr.push(facts[c]+'!!!');
     c++;
   }
  return arr;
-
 }

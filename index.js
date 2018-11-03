@@ -21,5 +21,5 @@ function johnLennonFacts(facts){
     c++;
   }
  return arr;
-  
+
 }
